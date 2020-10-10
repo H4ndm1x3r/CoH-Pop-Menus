@@ -1,0 +1,71 @@
+// Menu for hosting Hamidon Raids --  Triple Bloom
+// Made by: @Handmixer
+//
+Menu "Hamidon-Triple"
+{
+    Title "Hamidon Raid - Triple Bloom"
+    Divider
+    Menu "&Admin"
+    {
+        Title "Admin"
+        Divider
+        Option "&1 - ITrials EU" <& send "Incarnate Trials EU" [$name] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite. &>
+        Option "&2 - Love and War" <& send "Love and War" [$name] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite. &>
+        Option "&3 - LFG" "lfg [@$GLOBAL_NAME] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite."
+        Option "&4 - Discord" "league We will be hanging out in voice chat in the Hounds of Love Discord - join us! No need to speak, listening is just fine. >> $DISCORD_SERVER <<"
+        Option "&5 EoE" "league Make sure you have at least 1 Essence of the Earth inspiration. Buy on AH or make room in your inventory while we kill the GMs to spawn Hami"
+        Option "&6 Main Tank" "league $target will be the Main Tank throughout this Raid."
+        Option "&7 Other Inspirations" "league If you plan on doing the second Hamidon with us as well, please buy 1 Ultimate inspiration from AH or Luna in Ouro."
+        Option "Broadcast Channel" "league Make sure you have the broadcast channel enabled in your chat window"
+    }   
+    Menu "Recruitment"
+    {
+        Title "Recruitment"
+        Option "&1 12 hours" "lfg The weekly Hamidon Raid will be taking place in about 12 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&2 10 hours" "lfg The weekly Hamidon Raid will be taking place in about 10 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&3 8 hours" "lfg The weekly Hamidon Raid will be taking place in about 8 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&4 6 hours" "lfg The weekly Hamidon Raid will be taking place in about 6 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&5 4 hours" "lfg The weekly Hamidon Raid will be taking place in about 4 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&6 2 hours" "lfg The weekly Hamidon Raid will be taking place in about 2 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&7 1.5 hours" "lfg The weekly Hamidon Raid will be taking place in about 1.5 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&8 1 hour" "lfg The weekly Hamidon Raid will be taking place in about 1 hour (@ 19:30 BST/20:30 CEST) in The Hive."
+    }
+    Option " " ""
+    Title "Overall Strategy"
+    Divider 
+    Menu "&1 - Strategy"
+    {
+        Option "Step &1" "yell The strategy: Triple Bloom"
+        Option "Step &2" "yell The Main Tank will taunt Hami while the rest clear Mitochondrias."
+        Option "Step &3" "yell We move around Hami clockwise."
+        Option "Step &4" "yell On the final Green Mitochondria, we summon lore pets and smash him."
+    }
+    Option " " ""
+    Title "Mitochondria"
+    Divider
+    Menu "&2 - Yellow Mitochondria"
+    {   
+        Option "&1 - Melee" "league ==== YELLOW MITO - MELEE  ===="
+        Option "&2" "yell A tank will taunt the Mito to allow the rest of the melee team to engage properly."
+        Option "&3 Melee Targeter" "yell MELEE teams (unless you have taunt) target through $target and focus down the Mitos one at a time."
+        Option "&4" "yell Others with taunt should spread out and agro the other Yellow mitos, to keep it going smoothly for everyone."
+    }
+    Menu "&3 - Blue Mitochondria"
+    {
+        Option "&1 - Ranged" "league ==== BLUE MITO - RANGED  ===="
+        Option "&2 Ranged Targeter" "yell RANGED teams target through $target and focus down the Mitos one at a time."
+    }
+    Menu "&4 - Green Mitochondria"
+    {
+        Option "&1 - Hold" "league ==== GREEN MITO - HOLD  ===="
+        Option "&2 Hold Targeter" "yell HOLD teams target through $target and focus down the Mitos one at a time."
+        Option "&3" "yell Control teams will use hold powers. Once held, the Mito's regeneration will subside and the ranged damage should be enough to kill."
+    }
+    Option " " ""
+    Option "&5 Lore Pets" "yell Please don't use Lore pets until I say so!"
+    Option "&6 Everyone" "yell EVERYONE TARGETS THROUGH $target."
+    Option "&7 Remind Taunters" "yell Taunters remember to grab the agro of the yellows!"
+    Option " " ""
+    Divider
+    Option "Make Macro to swap menu" <& macro_image "BanishedPantheon_Pain_Misery" "Bind Triple Hamidon" "bind $BIND_BUTTON popmenu Hamidon-Double" &>
+}

@@ -1,0 +1,60 @@
+// Menu for hosting Hamidon Raids the quick way
+// Made by: @Handmixer
+//
+Menu "Hamidon-Quad"
+{
+    Title "Hamidon Raid - Quad"
+    Divider
+    Menu "&Admin"
+    {
+        Title "Admin"
+        Divider
+        Option "&1 - ITrials EU" <& send "Incarnate Trials EU" [$name] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite. &>
+        Option "&2 - Love and War" <& send "Love and War" [$name] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite. &>
+        Option "&3 - LFG" "lfg [@$GLOBAL_NAME] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite."
+        Option "&4 - Discord" "league We will be hanging out in voice chat in the Hounds of Love Discord - join us! No need to speak, listening is just fine. >> $DISCORD_SERVER <<"
+        Option "&5 EoE" "league Make sure you have at least 1 Essence of the Earth inspiration. Buy on AH or make room in your inventory while we kill the GMs to spawn Hami"
+        Option "&6 Main Tank" "league $target will be the Main Tank throughout this Raid."
+        Option "&7 Other Inspirations" "league If you plan on doing the second Hamidon with us as well, please buy 1 Ultimate inspiration from AH or Luna in Ouro."
+        Option "Broadcast Channel" "league Make sure you have the broadcast channel enabled in your chat window"
+    }   
+    Menu "Recruitment"
+    {
+        Title "Recruitment"
+        Option "&1 12 hours" "lfg The weekly Hamidon Raid will be taking place in about 12 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&2 10 hours" "lfg The weekly Hamidon Raid will be taking place in about 10 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&3 8 hours" "lfg The weekly Hamidon Raid will be taking place in about 8 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&4 6 hours" "lfg The weekly Hamidon Raid will be taking place in about 6 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&5 4 hours" "lfg The weekly Hamidon Raid will be taking place in about 4 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&6 2 hours" "lfg The weekly Hamidon Raid will be taking place in about 2 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&7 1.5 hours" "lfg The weekly Hamidon Raid will be taking place in about 1.5 hours (@ 19:30 BST/20:30 CEST) in The Hive."
+        Option "&8 1 hour" "lfg The weekly Hamidon Raid will be taking place in about 1 hour (@ 19:30 BST/20:30 CEST) in The Hive."
+    }
+    Option " " ""
+    Title "Overall Strategy"
+    Divider 
+    Menu "&1 - Strategy"
+    {
+        Option "Step &1" "yell The strategy: Quad Bloom"
+        Option "Step &2" "yell The Main Tank will run in first and taunt Hamidon."
+        Option "Step &3" "yell The rest of us will follow behind them and charge at Hamidon as well."
+        Option "Step &4" "yell If you are TANKER or BRUTE with taunt, please taunt one of the surrounding Yellow Mitochondria each."
+        Option "Step &5" "yell Everyone else just focus on hitting Hamidon."
+        Option "Step &6" "yell We will not be killing any of the Mitochondria today!"
+    }
+    Option " " ""
+    Title "Mitochondria"
+    Divider
+    Menu "&2 - Yellow Mitochondria"
+    {
+        Option "&1" "yell Tanks/Brutes will taunt the yellow Mitos around the edge."
+        Option "&2" "yell Grab as many as you can! Should be quite a few as long as you keep EoE up."
+    }
+    Option " " ""
+    Option "&3 Lore Pets" "yell Summon Lores!"
+    Option "&4 Buff up" "yell Buff up!"
+    Option "&5 Remind Taunters" "yell Taunters remember to grab the agro of the yellows!"
+    Option " " ""
+    Divider
+    Option "Make Macro to swap menu" <& macro_image "AlignmentPower_Frenzy" "Bind Quad Hamidon" "bind $BIND_BUTTON popmenu Hamidon-Quad" &>
+}
