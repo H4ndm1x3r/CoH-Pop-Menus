@@ -35,7 +35,7 @@ Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials an
 Before you are able to properly use these Pop-Menus you need to configure your settings.
 To do this, locate **config.json** file inside the templates folder.
 
-1) Open in **config.json** in your preferred text editor.
+1) Open **config.json** in your preferred text editor.
 
 2) Modify the available variables to fit you.
 
