@@ -4,11 +4,10 @@ So you find yourself interested in some Pop Menus for City of Heroes. Well, you'
 
 **@Handmixer** presents:  **Semi-Customizable Pop Menus!**
 
-Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials and Mother Ship Raids in the near future.
+Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials and Mothership Raids in the near future.
 <br>
 
-
-## Intallation
+## Installation
 
 1) Download the **[latest release](https://github.com/H4ndm1x3r/CoH-Popmenus/releases)**
 
