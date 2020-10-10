@@ -1,8 +1,8 @@
 # Semi-Customizable Pop-Menus
 
-So you find yourself interested in some Pop Menus for City of Heroes. Well, you've come to the right place! Enjoy using existing, well-functioning pop-menus customized to fit your needs with personalized details.
+So you find yourself interested in some Pop-Menus for City of Heroes. Well, you've come to the right place! Enjoy using existing, well-functioning pop-menus customized to fit your needs with personalized details.
 
-**@Handmixer** presents:  **Semi-Customizable Pop Menus!**
+**@Handmixer** presents:  **Semi-Customizable Pop-Menus!**
 
 Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials and Mothership Raids in the near future.
 <br>
@@ -13,7 +13,7 @@ Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials an
 
 2) Navigate to your City of Heroes installation folder.
 
-3) Extract or drag the contents of the downloaded zip-file into your City of Heroes installation folder
+3) Extract or drag the contents of the downloaded zip-file into your City of Heroes installation folder.
 
 4) Verify that the files have been correctly installed by locating your Menus folder `data -> Texts -> English -> Menus`
 <br>
@@ -27,7 +27,7 @@ Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials an
 
 1) The first time you use a pop-menu will be manually by typing `/popmenu [TITLE]` in-game.
 
-2) From the list you can select  "Make Macro", which will bind the pop-menu to your configured button when pressed.
+2) From the list you can select "Make Macro", which will bind the pop-menu to your configured button when pressed.
     * NOTE: Currently all pop-menus will be bound to the same button, so you will need to use the macros to switch active pop-menu.
 <br>
 
@@ -35,13 +35,13 @@ Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials an
 Before you are able to properly use these Pop-Menus you need to configure your settings.
 To do this, locate **config.json** file inside the templates folder.
 
-1) Open in **config.json** in your prefered text editor.
+1) Open in **config.json** in your preferred text editor.
 
 2) Modify the available variables to fit you.
 
 3) Save the file once finished.
 
-4) Finally, return to the Menus folder and run **apply-config.py**. Several new files should appear in the folder
+4) Finally, return to the Menus folder and run **apply-config.py**. Several new files should appear in the folder.
 <br>
 
 ## Configurable Variables
