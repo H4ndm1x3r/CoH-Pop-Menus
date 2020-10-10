@@ -12,7 +12,7 @@ Menu "Hamidon-Triple"
         Option "&1 - ITrials EU" <& send "Incarnate Trials EU" [$name] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite. &>
         Option "&2 - Love and War" <& send "Love and War" [$name] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite. &>
         Option "&3 - LFG" "lfg [@$GLOBAL_NAME] Hamidon raid is forming up in The Hive! (45+) Send a tell for an invite."
-        Option "&4 - Discord" "league We will be hanging out in voice chat in the Hounds of Love Discord - join us! No need to speak, listening is just fine. >> $DISCORD_SERVER <<"
+        Option "&4 - Discord" "league We will be hanging out in voice chat in the $DISCORD_SERVER Discord - join us! No need to speak, listening is just fine. >> $DISCORD_LINK <<"
         Option "&5 EoE" "league Make sure you have at least 1 Essence of the Earth inspiration. Buy on AH or make room in your inventory while we kill the GMs to spawn Hami"
         Option "&6 Main Tank" "league $target will be the Main Tank throughout this Raid."
         Option "&7 Other Inspirations" "league If you plan on doing the second Hamidon with us as well, please buy 1 Ultimate inspiration from AH or Luna in Ouro."

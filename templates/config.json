@@ -1,5 +1,6 @@
 {
-    "$GLOBAL_NAME": "Handmixer",
-    "$DISCORD_SERVER": "https://discord.gg/KGXdMQF",
-    "$BIND_BUTTON": "button5"
+    "GLOBAL_NAME": "REQUIRED",
+    "DISCORD_LINK": "REQUIRED",
+    "DISCORD_SERVER": "REQUIRED",
+    "BIND_BUTTON": "REQUIRED"
 }
