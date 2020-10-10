@@ -11,7 +11,7 @@ Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials an
 
 1) Download the **[latest release](https://github.com/H4ndm1x3r/CoH-Popmenus/releases)**
 
-2) Navigate to your City of Heroes installation folder.
+2) Navigate to your City of Heroes installation folder. 
 
 3) Extract or drag the contents of the downloaded zip-file into your City of Heroes installation folder
 
