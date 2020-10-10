@@ -22,6 +22,7 @@ Currently supports (Reunion) Hamidon Raids, planned to be extended to Itrials an
 ### External
 
 1) Ensure that you have **[Python installed](https://www.python.org/downloads/)**
+<br>
 
 ### First Time Use
 
